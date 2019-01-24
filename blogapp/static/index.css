@@ -1,0 +1,53 @@
+body {
+    background-color: #d1ccc3;
+    display: grid;
+    
+}
+.header {
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    color: #854c3a;
+}
+.header img{
+    margin-left: 35%;
+    width: 20%;
+    height: 20%;
+}
+.header #title {
+    font-size: 25px;
+    padding-top: 3%;
+}
+.header #bpost {
+    font-size: 15px;
+    color: #205b77;
+}
+.header #post-footer {
+    float: left;
+}
+#like-button{
+    background: url(unlike.png) no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 22px; 
+}
+#like-button:hover {
+    background: url(like.png) no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 22px;  
+}
+.header #author {
+    float: right;
+}
+
+.footer {
+    margin-top: 8%;  
+    bottom: 2%;
+    height: 50px;
+    position: relative;
+    margin-left: 78%;
+}
+#footer-button {
+    background-color: #205b77;
+}
