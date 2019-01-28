@@ -3,7 +3,7 @@
 
 {% block content %}
                 <div class="posts">
-                    <p id = "title">Hello World</p>
+                    <p id = "title">Loren Ipsum</p>
                     <p id = "bpost">{{text}}</p>
                     <div id = "post-footer">
                         <div id = "like-button">
@@ -14,7 +14,7 @@
                 </div>
 
                 <div class="posts">
-                        <p id = "title">Hello World</p>
+                        <p id = "title">Loren Ipsum</p>
                         <p id = "bpost">{{text}}</p>
                         <div id = "post-footer">
                             <div id = "like-button">
@@ -22,6 +22,10 @@
                             </div>
                         </div>
                         <div id = "author">Loren Ipsum</div>
+                </div>
+                <div class="footer">
+                        <a class="waves-effect waves-light btn-small" id = "footer-button" href = "{% url 'login' %}">Login</a>
+                        <a class="waves-effect waves-light btn-small" id = "footer-button" href = "{% url 'signup' %}">Sign Up</a>
                 </div>
                 
             
